@@ -150,14 +150,7 @@ def run_generation(profile, refinement=False):
     record_metrics(metrics)
 
 with st.container(key='site_header'):
-    brand, how, privacy = st.columns([.64,.18,.18], gap='small', vertical_alignment='center')
-    with brand: st.html(nav())
-    with how:
-        with st.popover('How it works', use_container_width=True):
-            st.write('Choose your campus and needs. We retrieve relevant sources, then NVIDIA Nemotron on Nebius compares them with your answers. Providers confirm eligibility and availability.')
-    with privacy:
-        with st.popover('Your privacy', use_container_width=True):
-            st.write('Your answers and saved programs stay in this app session. Find Recommendations sends selected answers to Nebius. Campus, home city/ZIP, and selected needs go to Tavily for discovery. We keep aggregate usage counts, not questionnaire logs. Downloads exclude your questionnaire answers. Closing the session can clear your saved programs.')
+    st.html(nav())
 
 step = st.session_state.questionnaire_step
 for error in st.session_state.pop('navigation_errors', []): st.error(error)
