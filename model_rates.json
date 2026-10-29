@@ -1,0 +1,10 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "checked_at": "2026-10-29",
+  "source": "https://tokenfactory.nebius.com/api/public/models_info",
+  "input_usd_per_million": 0.3,
+  "output_usd_per_million": 0.9,
+  "cached_input_usd_per_million": 0.06,
+  "valid_days": 14,
+  "note": "Estimate uses uncached input rates. Actual bills can differ because of caching, credits, or pricing changes."
+}

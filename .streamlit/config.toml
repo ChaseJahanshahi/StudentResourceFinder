@@ -1,0 +1,10 @@
+[theme]
+base = "dark"
+primaryColor = "#b182f5"
+backgroundColor = "#0a090c"
+secondaryBackgroundColor = "#131116"
+textColor = "#f4f2f6"
+font = "sans serif"
+
+[client]
+showErrorLinks = "false"

@@ -1,0 +1,128 @@
+{
+  "mode": "offline",
+  "cases": [
+    {
+      "case": "ucla_unstable_housing",
+      "candidates": 5,
+      "candidate_ids": [
+        "campus_basic_needs",
+        "cal_grant",
+        "calfresh",
+        "pell_grant",
+        "medi_cal"
+      ],
+      "needs": [
+        "Food",
+        "Housing",
+        "Financial Aid",
+        "Healthcare"
+      ],
+      "conflicts": [],
+      "unknown_fields": 4
+    },
+    {
+      "case": "uci_on_campus_meals",
+      "candidates": 5,
+      "candidate_ids": [
+        "cal_grant",
+        "pell_grant",
+        "medi_cal",
+        "campus_basic_needs",
+        "calfresh"
+      ],
+      "needs": [
+        "Food",
+        "Housing",
+        "Financial Aid",
+        "Healthcare"
+      ],
+      "conflicts": [
+        "calfresh"
+      ],
+      "unknown_fields": 6
+    },
+    {
+      "case": "private_student_unknown_exemption",
+      "candidates": 5,
+      "candidate_ids": [
+        "campus_basic_needs",
+        "cal_grant",
+        "pell_grant",
+        "medi_cal",
+        "calfresh"
+      ],
+      "needs": [
+        "Food",
+        "Housing",
+        "Financial Aid",
+        "Healthcare"
+      ],
+      "conflicts": [
+        "calfresh"
+      ],
+      "unknown_fields": 3
+    },
+    {
+      "case": "graduate_financial_aid",
+      "candidates": 3,
+      "candidate_ids": [
+        "campus_basic_needs",
+        "cal_grant",
+        "pell_grant"
+      ],
+      "needs": [
+        "Financial Aid"
+      ],
+      "conflicts": [
+        "cal_grant",
+        "pell_grant"
+      ],
+      "unknown_fields": 7
+    },
+    {
+      "case": "out_of_state_unknowns",
+      "candidates": 5,
+      "candidate_ids": [
+        "pell_grant",
+        "cal_grant",
+        "calfresh",
+        "campus_basic_needs",
+        "medi_cal"
+      ],
+      "needs": [
+        "Food",
+        "Housing",
+        "Financial Aid",
+        "Healthcare"
+      ],
+      "conflicts": [
+        "cal_grant",
+        "calfresh",
+        "campus_basic_needs",
+        "medi_cal"
+      ],
+      "unknown_fields": 7
+    },
+    {
+      "case": "community_college_student_parent",
+      "candidates": 5,
+      "candidate_ids": [
+        "campus_basic_needs",
+        "cal_grant",
+        "calfresh",
+        "promise_grant",
+        "pell_grant"
+      ],
+      "needs": [
+        "Food",
+        "Childcare",
+        "Financial Aid"
+      ],
+      "conflicts": [],
+      "unknown_fields": 4
+    }
+  ],
+  "limitations": [
+    "Structural checks do not establish eligibility or prove every generated statement. Source review remains necessary."
+  ]
+}

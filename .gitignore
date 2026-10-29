@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+*.bak
+*_api_key.txt
+.runtime/
+.backups/
+verification/synthetic_plan.json
+verification/*live*.json

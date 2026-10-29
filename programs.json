@@ -1,0 +1,63 @@
+[
+  {
+    "id": "calfresh",
+    "name": "CalFresh",
+    "categories": ["Food"],
+    "description": "Grocery assistance for eligible households.",
+    "next_step": "Ask your county or campus CalFresh navigator to review your household and student rules, then apply through BenefitsCal.",
+    "apply_url": "https://benefitscal.com/",
+    "source_url": "https://calfresh.dss.ca.gov/food/eligibility/index.html",
+    "rule_source_url": "https://my.dpss.lacounty.gov/public/en/home/epolicy/program/calfresh/student-eligibility.html",
+    "reviewed_on": "2026-10-28"
+  },
+  {
+    "id": "medi_cal",
+    "name": "Medi-Cal",
+    "categories": ["Healthcare"],
+    "description": "Free or low-cost California health coverage for people who meet program rules.",
+    "next_step": "Use the official Medi-Cal site to check current requirements and application options.",
+    "apply_url": "https://www.dhcs.ca.gov/medi-cal/",
+    "source_url": "https://www.dhcs.ca.gov/medi-cal/",
+    "reviewed_on": "2026-10-28"
+  },
+  {
+    "id": "cal_grant",
+    "name": "Cal Grant",
+    "categories": ["Financial Aid"],
+    "description": "California student aid for qualifying undergraduate, vocational, and some teacher credential students.",
+    "next_step": "Ask financial aid about FAFSA or California Dream Act application requirements, GPA submission, and current deadlines.",
+    "apply_url": "https://www.ca.gov/departments/198/services/63/",
+    "source_url": "https://www.ca.gov/departments/198/services/63/",
+    "reviewed_on": "2026-10-28"
+  },
+  {
+    "id": "promise_grant",
+    "name": "California College Promise Grant",
+    "categories": ["Financial Aid"],
+    "description": "An enrollment-fee waiver for eligible California community college students.",
+    "next_step": "Contact your community college financial aid office about applying through FAFSA, CADAA, or the separate grant application.",
+    "apply_url": "https://secure.cccapply.org/us/money/california-college-promise-grant",
+    "source_url": "https://www.cccco.edu/Students/Apply-for-College/",
+    "reviewed_on": "2026-10-28"
+  },
+  {
+    "id": "campus_basic_needs",
+    "name": "Campus basic-needs support",
+    "categories": ["Food", "Housing", "Financial Aid", "Healthcare", "Childcare"],
+    "description": "Campus referrals for food, housing, and other basic needs. Services and funding vary by college.",
+    "next_step": "Contact your college's basic-needs or student-support office. Ask about food access, housing referrals, emergency support, and student-parent resources; availability is campus-specific.",
+    "apply_url": "https://www.cccco.edu/about-us/news-and-media/press-releases/2026-meeting-basic-needs-unlocking-student-success/",
+    "source_url": "https://www.cccco.edu/about-us/news-and-media/press-releases/2026-meeting-basic-needs-unlocking-student-success/",
+    "reviewed_on": "2026-10-28"
+  },
+  {
+    "id": "pell_grant",
+    "name": "Federal Pell Grant",
+    "categories": ["Financial Aid"],
+    "description": "Federal grant aid generally for eligible undergraduate students with financial need.",
+    "next_step": "Review federal eligibility and submit FAFSA if applicable. Your financial aid office determines your award.",
+    "apply_url": "https://studentaid.gov/h/apply-for-aid/fafsa",
+    "source_url": "https://studentaid.gov/understand-aid/types/grants/pell",
+    "reviewed_on": "2026-10-28"
+  }
+]
