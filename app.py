@@ -165,10 +165,6 @@ if step <= 3:
                     with st.container(key=f'step_item_{target}'):
                         with st.container(key=f'step_{status}_{target}'):
                             st.button(label, key=f'jump_step_{target}', on_click=go_to, args=(target,), use_container_width=True)
-            with st.container(key='example_actions'):
-                example_column, reset_column = st.columns(2)
-                with example_column: st.button('Try an example', on_click=reset_answers, args=(True,), help='Loads a fictional student profile for testing.')
-                with reset_column: st.button('Start over', on_click=reset_answers, args=(False,))
     with form_column:
         with st.container(key=f'question_page_{step}'):
             st.html(form_heading(step))
